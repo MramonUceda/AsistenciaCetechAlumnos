@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: #0CA3D2;
+	font: 13px/20px 'Lucida Garnde';
+	color: #AD294E;
+	
+}
+
+/* con el punto se conviente en una clase */
+.contenedor{
+	margin: 80px auto;
+	width: 640px;
+}
+
+.input{
+	font-family: Tahoma;
+	font-size: 16px;
+}
+
+input[type=text], input[type=password] {
+	margin: 5px;
+	padding: 0 10px;
+	width: 200px;
+	height: 34px;
+	color: #404040;
+	background: white;
+	border: 1px solid;
+	border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+	border-radius: 2px;
+	outline: 5px solid #EFF4F7;
+	-moz-outline-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.estiloDiv{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 20px 20px;
+	width: 310px;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 0 0 200px rgba(255,255,255,0.5), 0 1px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 0 200px rgba(255,255,255,0.5), 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* heredar estilos de .estilodiv a h1 */
+
+.estiloDiv h1{
+	margin: -20px -20px 21px;
+	line-height: 40px;
+	font-size: 15px;
+	color: #555;
+	text-align:center; 
+	text-shadow: 0 1px white;
+	background: #F3F3F3;
+	border-bottom: 1px solid #CFCFCF;
+	border-radius:3px 3px 0 0;
+	background-image: -webkit-linear-gradient(top, whiteffd, #EEF2F5);
+	background-image: -moz-linear-gradient(top, whiteffd, #EEF2F5);
+	background-image: -o-linear-gradient(top, whiteffd, #EEF2F5);
+	background-image: linear-gradient(top, whiteffd, #EEF2F5);
+	-webkit-box-shadow: 0 1px whitesomke;
+	box-shadow: 0 1px whitesmoke;
+}
+
+.estiloDiv p{
+	margin: 20px 0 0;
+	text-align: center;
+}
+
+p.submit{
+	text-align: center;
+}
+
+input[type=submit]{
+	padding: 0 18px;
+	height: 29px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #527881;
+	text-shadow: 0 1px #E3F1F1;
+	background: #CDE5EF;
+	border: 1px solid;
+	border-color: #B4CCCE #B3C0C8 #9EB9C2;
+	border-radius: 16px;
+	outline: 0;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background-image: -webkit-linear-gradient(top, #EDF5F8, #CDE5EF);
+	background-image: -moz-linear-gradien t(top, #EDF5F8, #CDE5EF);
+	background-image: -o-linear-gradient(top, #EDF5F8, #CDE5EF);
+	background-image: linear-gradient(top, #EDF5F8, #CDE5EF);
+	-webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 1px whitesmoke, 0 1px 2px rgba(0,0,0,0.15);
+}
+
+input[type=text]:focus, input[type=password]:focus{
+	border-color: #FF8000;
+	outline-color: #FF8000;
+	outline-offset: 0;
+}
+
+.msjError{
+	color: red;
+	font-weight: bold;
+}
